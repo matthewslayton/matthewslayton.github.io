@@ -2,8 +2,8 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: true
+description: Composer of contemporary classical music and music for games/media
+nav: false
 nav_order: 5
 ---
 
