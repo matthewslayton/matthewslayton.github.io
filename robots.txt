@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://matthewslayton.github.io/sitemap.xml
+Sitemap: https://matthewslayton.github.iomatthewslayton.github.io/sitemap.xml
