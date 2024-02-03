@@ -6,7 +6,7 @@ subtitle: Cognitive Neuroscientist, Composer
 
 profile:
   align: right
-  image: /assets/img/prof_pic.jpg
+  image: prof_pic.jpg
   more_info: >
     <p>Center for Cognitive Neuroscience</p>
     <p>Duke University LSRC Bldg Rm B254 </p>
