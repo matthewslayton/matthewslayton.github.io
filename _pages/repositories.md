@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Repos for current neuroimaging projects will be made public soon
+description: Repos for current projects
 nav: true
 nav_order: 2
 ---
