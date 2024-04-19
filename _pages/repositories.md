@@ -6,9 +6,9 @@ description: Repos for current projects
 nav: true
 nav_order: 2
 ---
-<!-- 
-## GitHub users
 
+## GitHub users
+<!-- 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -31,7 +31,7 @@ nav_order: 2
 
 {% endfor %}
 {% endif %}
-{% endif %}
+{% endif %} -->
 
 ## GitHub Repositories
 
@@ -41,4 +41,4 @@ nav_order: 2
     {% include repository/repo.html repository=repo %}
   {% endfor %}
 </div>
-{% endif %} -->
+{% endif %}
