@@ -6,7 +6,7 @@ description: Repos for current projects
 nav: true
 nav_order: 2
 ---
-
+<!-- 
 ## GitHub users
 
 {% if site.data.repositories.github_users %}
@@ -41,4 +41,4 @@ nav_order: 2
     {% include repository/repo.html repository=repo %}
   {% endfor %}
 </div>
-{% endif %}
+{% endif %} -->
