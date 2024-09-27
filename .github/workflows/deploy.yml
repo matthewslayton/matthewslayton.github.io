@@ -1,5 +1,4 @@
 name: deploy
-
 on:
   push:
     branches:
@@ -10,24 +9,25 @@ on:
       - master
       - main
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 🛎️
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.2.2'
         bundler-cache: true
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
     - name: Update _config.yml ⚙️
-      uses: fjogeleit/yaml-update-action@v0.13.1
+      uses: fjogeleit/yaml-update-action@main
       with:
         commitChange: false
         valueFile: '_config.yml'
@@ -35,7 +35,10 @@ jobs:
         value: ${{ github.repository }}
     - name: Install and Build 🔧
       run: |
-        pip3 install --upgrade jupyter
+        python -m venv venv
+        source venv/bin/activate
+        pip install --upgrade pip
+        pip install jupyter
         npm install -g mermaid.cli
         npm install -g purgecss
         export JEKYLL_ENV=production
@@ -46,4 +49,3 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: _site
-
