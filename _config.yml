@@ -41,7 +41,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+# rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -153,9 +153,9 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -215,7 +215,6 @@ plugins:
   - jekyll-archives
   - jekyll-diagrams
   - jekyll-email-protect
-  - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-link-attributes
@@ -227,6 +226,7 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
  # - jekyll-jupyter-notebook
+ #   - jekyll-feed
 # Sitemap settings
 defaults:
   - scope:
