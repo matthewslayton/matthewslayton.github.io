@@ -217,6 +217,8 @@ plugins:
   - jekyll-email-protect
   - jekyll-get-json
   - jekyll-imagemagick
+  - jekyll-feed
+  - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
@@ -225,8 +227,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
- # - jekyll-jupyter-notebook
- #   - jekyll-feed
+
 # Sitemap settings
 defaults:
   - scope:
