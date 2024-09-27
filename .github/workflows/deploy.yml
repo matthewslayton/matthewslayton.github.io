@@ -23,12 +23,9 @@ jobs:
         ruby-version: '3.2.2'
         bundler-cache: true
     - name: Update _config.yml ⚙️
-      uses: fjogeleit/yaml-update-action@main
-      with:
-        commitChange: false
-        valueFile: '_config.yml'
-        propertyPath: 'giscus.repo'
-        value: ${{ github.repository }}
+      run: |
+        sed -i '/jekyll-feed/d' _config.yml
+        sed -i '/jekyll-jupyter-notebook/d' _config.yml
     - name: Debug Info
       run: |
         echo "Current directory:"
