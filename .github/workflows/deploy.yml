@@ -29,12 +29,24 @@ jobs:
         valueFile: '_config.yml'
         propertyPath: 'giscus.repo'
         value: ${{ github.repository }}
+    - name: Debug Info
+      run: |
+        echo "Current directory:"
+        pwd
+        echo "Directory contents:"
+        ls -la
+        echo "Ruby version:"
+        ruby --version
+        echo "Bundler version:"
+        bundle --version
+        echo "Jekyll version:"
+        bundle exec jekyll --version
     - name: Install and Build 🔧
       run: |
         npm install -g mermaid.cli
         npm install -g purgecss
         export JEKYLL_ENV=production
-        bundle exec jekyll build --lsi
+        bundle exec jekyll build --trace
         purgecss -c purgecss.config.js
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
