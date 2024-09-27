@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Repos for current projects
+description: Check back soon! I'll make my repos public as soon as I check they're free of PHI
 nav: true
 nav_order: 2
 ---
