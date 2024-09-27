@@ -41,12 +41,16 @@ jobs:
         bundle --version
         echo "Jekyll version:"
         bundle exec jekyll --version
+        echo "Contents of _config.yml:"
+        cat _config.yml
+        echo "Contents of Gemfile:"
+        cat Gemfile
     - name: Install and Build 🔧
       run: |
         npm install -g mermaid.cli
         npm install -g purgecss
         export JEKYLL_ENV=production
-        bundle exec jekyll build --trace
+        bundle exec jekyll build --trace --verbose
         purgecss -c purgecss.config.js
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
