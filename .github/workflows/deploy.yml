@@ -13,41 +13,30 @@ permissions:
   contents: write
 jobs:
   deploy:
+    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 🛎️
-      uses: actions/checkout@v4
+      uses: actions/checkout@v3
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.2.2'
         bundler-cache: true
     - name: Update _config.yml ⚙️
-      run: |
-        sed -i '/jekyll-feed/d' _config.yml
-        sed -i '/jekyll-jupyter-notebook/d' _config.yml
-    - name: Debug Info
-      run: |
-        echo "Current directory:"
-        pwd
-        echo "Directory contents:"
-        ls -la
-        echo "Ruby version:"
-        ruby --version
-        echo "Bundler version:"
-        bundle --version
-        echo "Jekyll version:"
-        bundle exec jekyll --version
-        echo "Contents of _config.yml:"
-        cat _config.yml
-        echo "Contents of Gemfile:"
-        cat Gemfile
+      uses: fjogeleit/yaml-update-action@v0.13.1
+      with:
+        commitChange: false
+        valueFile: '_config.yml'
+        propertyPath: 'giscus.repo'
+        value: ${{ github.repository }}
     - name: Install and Build 🔧
       run: |
+        pip3 install --upgrade jupyter
         npm install -g mermaid.cli
         npm install -g purgecss
         export JEKYLL_ENV=production
-        bundle exec jekyll build --trace --verbose
+        bundle exec jekyll build --lsi
         purgecss -c purgecss.config.js
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
