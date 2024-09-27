@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Check back soon! I'll make my repos public as soon as I remove the PHI
+description: Check back soon! I'll make my repos public as soon as I finish checking for PHI
 nav: true
 nav_order: 2
 ---
