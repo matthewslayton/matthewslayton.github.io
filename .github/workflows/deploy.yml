@@ -22,10 +22,6 @@ jobs:
       with:
         ruby-version: '3.2.2'
         bundler-cache: true
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
     - name: Update _config.yml ⚙️
       uses: fjogeleit/yaml-update-action@main
       with:
@@ -35,10 +31,6 @@ jobs:
         value: ${{ github.repository }}
     - name: Install and Build 🔧
       run: |
-        python -m venv venv
-        source venv/bin/activate
-        pip install --upgrade pip
-        pip install jupyter
         npm install -g mermaid.cli
         npm install -g purgecss
         export JEKYLL_ENV=production
