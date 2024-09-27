@@ -242,6 +242,8 @@ sass:
 jupyter_notebook:
   enabled: true
   template: basic
+  markdown: true
+  ipynb: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
