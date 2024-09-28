@@ -240,10 +240,12 @@ sass:
 
 # try adding jupyter stuff since that's what's giving the error
 jupyter_notebook:
-  enabled: true
-  template_name: basic
-  markdown: true
-  ipynb: true
+  enabled: false
+  # template_name: basic
+  # markdown: true
+  # ipynb: true
+
+  
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
