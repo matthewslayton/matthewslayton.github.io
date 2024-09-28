@@ -239,11 +239,11 @@ sass:
   style: compressed
 
 # try adding jupyter stuff since that's what's giving the error
-jupyter_notebook:
-  enabled: true
-  template: basic
-  markdown: true
-  ipynb: true
+# jupyter_notebook:
+#   enabled: true
+#   template: basic
+#   markdown: true
+#   ipynb: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
