@@ -218,7 +218,7 @@ plugins:
   - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-feed
-  - jekyll-jupyter-notebook
+#  - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
@@ -238,12 +238,12 @@ defaults:
 sass:
   style: compressed
 
-# try adding jupyter stuff since that's what's giving the error
-jupyter_notebook:
-  enabled: false
-  # template_name: basic
-  # markdown: true
-  # ipynb: true
+# # try adding jupyter stuff since that's what's giving the error
+# jupyter_notebook:
+#   enabled: false
+#   # template_name: basic
+#   # markdown: true
+#   # ipynb: true
 
   
 
