@@ -3,10 +3,7 @@ github_users:
 
 
 github_repos:
-  - matthewslayton/RSA
-  - matthewslayton/single_trial_models
-  - matthewslayton/mediation_univariate
-  - matthewslayton/DTI
-  - matthewslayton/White-background-for-matlab-plot 
+  - matthewslayton/iEEG_pipeline
+  - matthewslayton/RSA_pipeline 
 
 
