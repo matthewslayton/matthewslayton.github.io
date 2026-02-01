@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: recent publications. more coming soon
+title: Publications
+description: Recent Publications
 nav: true
 nav_order: 1
 ---
