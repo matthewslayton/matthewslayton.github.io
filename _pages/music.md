@@ -12,7 +12,7 @@ Matthew Slayton’s compositions reflect his fascination with biological and lin
 
 ## Covers/Arrangements
 Score video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JBU4RUcpVuc?si=SBBX3KuB3FcCVT2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GYArZQjUWdM?si=zE5w-AvO_PEG83_2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Audio only
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2188249635&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -22,7 +22,7 @@ Audio only
 
 ## Concert music
 Large ensemble
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_uvZEVTTIZE?si=kCNyQfkszeCZV_1z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JBU4RUcpVuc?si=NNrCbu22RA_smUPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Work for solo cello
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b3qr3prmqAY?si=jAztcJ2DVfa-eNmR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
