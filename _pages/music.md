@@ -16,6 +16,7 @@ Orchestra
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2188253283&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GYArZQjUWdM?si=P3aGKg-Sl95aw7_7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Concert music
@@ -32,6 +33,8 @@ Percussion quartet
 
 Piano and violin duo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HY51kNxId6k?si=oeRxYK34bHTN6-8T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_uvZEVTTIZE?si=kCNyQfkszeCZV_1z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Game music
