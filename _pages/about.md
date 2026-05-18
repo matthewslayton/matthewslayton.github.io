@@ -14,7 +14,7 @@ profile:
 #social: false  # includes social icons at the bottom of the page
 ---
 
-Matthew Slayton is a Postdoc in Neurology at the University of Chicago. He studies neural representation of memory using intracranial EEG and Transcranial Magnetic Stimulation (TMS).
+Matthew Slayton is a Postdoc in Neurology at the University of Chicago. He studies neural representation of memory using intracranial EEG and Transcranial Magnetic Stimulation (TMS). PhD at Duke University studying Mild Cognitive Impairment using RSA and fMRI.
 
 <ul class="social-media-list">
   <li><a href="https://twitter.com/mmmslayton" class="icon brands fab fa-twitter"><span class="label">Twitter</span></a></li>
