@@ -9,7 +9,9 @@ nav_order: 2
 
 ## GitHub Activity
 
-1,263 contributions in the last year as of February 1, 2026
+{% if site.data.github_stats %}
+{{ site.data.github_stats.commits_last_year }} commits ({{ site.data.github_stats.contributions_last_year }} total contributions) in the last year as of {{ site.data.github_stats.generated_at | date: "%B %-d, %Y" }}
+{% endif %}
 
 ---
 

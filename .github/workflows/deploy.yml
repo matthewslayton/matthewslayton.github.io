@@ -8,6 +8,8 @@ on:
     branches:
       - master
       - main
+  schedule:
+    - cron: '0 6 * * *' # refresh GitHub commit stats daily
   workflow_dispatch:
 permissions:
   contents: write
@@ -30,6 +32,27 @@ jobs:
         valueFile: '_config.yml'
         propertyPath: 'giscus.repo'
         value: ${{ github.repository }}
+    - name: Fetch GitHub commit stats 📊
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        GH_USER=$(ruby -ryaml -e "puts YAML.load_file('_config.yml')['github_username']")
+        RESPONSE=$(curl -s -H "Authorization: bearer $GITHUB_TOKEN" -H "Content-Type: application/json" \
+          -d "{\"query\":\"query(\$login: String!) { user(login: \$login) { contributionsCollection { totalCommitContributions contributionCalendar { totalContributions } } } }\", \"variables\": {\"login\": \"$GH_USER\"}}" \
+          https://api.github.com/graphql)
+        COMMITS=$(echo "$RESPONSE" | jq -r '.data.user.contributionsCollection.totalCommitContributions')
+        CONTRIBUTIONS=$(echo "$RESPONSE" | jq -r '.data.user.contributionsCollection.contributionCalendar.totalContributions')
+        if [ "$COMMITS" != "null" ] && [ -n "$COMMITS" ]; then
+          mkdir -p _data
+          {
+            printf 'commits_last_year: %s\n' "$COMMITS"
+            printf 'contributions_last_year: %s\n' "$CONTRIBUTIONS"
+            printf 'generated_at: "%s"\n' "$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          } > _data/github_stats.yml
+        else
+          echo "GitHub GraphQL query failed, keeping existing _data/github_stats.yml"
+          echo "$RESPONSE"
+        fi
     - name: Install and Build 🔧
       run: |
         npm install -g mermaid.cli
