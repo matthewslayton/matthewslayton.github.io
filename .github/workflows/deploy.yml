@@ -34,10 +34,10 @@ jobs:
         value: ${{ github.repository }}
     - name: Fetch GitHub commit stats 📊
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
       run: |
         GH_USER=$(ruby -ryaml -e "puts YAML.load_file('_config.yml')['github_username']")
-        RESPONSE=$(curl -s -H "Authorization: bearer $GITHUB_TOKEN" -H "Content-Type: application/json" \
+        RESPONSE=$(curl -s -H "Authorization: bearer $STATS_TOKEN" -H "Content-Type: application/json" \
           -d "{\"query\":\"query(\$login: String!) { user(login: \$login) { contributionsCollection { totalCommitContributions contributionCalendar { totalContributions } } } }\", \"variables\": {\"login\": \"$GH_USER\"}}" \
           https://api.github.com/graphql)
         COMMITS=$(echo "$RESPONSE" | jq -r '.data.user.contributionsCollection.totalCommitContributions')
