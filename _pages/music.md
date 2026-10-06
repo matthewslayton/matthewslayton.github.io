@@ -34,7 +34,7 @@ I've been kicking around an idea for a while. Take klezmer "shards" and assemble
   </div>
 </div>
 
-Second, a semi-vibe-coded "quilt generator" that selects, sorts, and assembles segments that I then manually assembled.
+Second, a semi-vibe-coded "quilt generator" that selects, sorts, and assembles segments that I then manually arrange.
 
 <div class="row justify-content-center">
   <div class="col-12 col-md-6 mb-3">
