@@ -10,7 +10,7 @@ nav_order: 7
 ## Composer bio
 Matthew Slayton’s compositions reflect his fascination with biological and linguistic systems, where multiple lines and levels operate simultaneously. His work has been performed around the country, has been used in documentary films and video game scores, and was featured at the Sō Percussion Summer Institute in 2017. He graduated from the San Francisco Conservatory of Music where he studied with Elinor Armer, and previously studied with Marta Ptaszynska and Augusta Read Thomas at the University of Chicago and Anthony Kelley and Stephen Jaffe at Duke University.
 
-## Tests that will beome something larger and if not, a suite 
+## Tests that will become something larger and if not, a suite 
 I've been kicking around an idea for a while. Take klezmer "shards" and assemble them to make waves of bits of sound. Larger shapes and flows assembled from recognizable pieces. Ripping technology improving as it has, I have some initial attempts. First, single instrument samples assembled manually.
 
 <div class="row justify-content-center">
