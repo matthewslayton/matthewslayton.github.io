@@ -7,22 +7,26 @@ nav: true
 nav_order: 7
 ---
 
-I've been kicking around an idea for a while. Take klezmer "shards" and assemble them to make these waves of bits of sound. Ripping technology improving as it has, I have some initial attempts. First, single instrument samples assembled manually.
+## Composer bio
+Matthew Slayton’s compositions reflect his fascination with biological and linguistic systems, where multiple lines and levels operate simultaneously. His work has been performed around the country, has been used in documentary films and video game scores, and was featured at the Sō Percussion Summer Institute in 2017. He graduated from the San Francisco Conservatory of Music where he studied with Elinor Armer, and previously studied with Marta Ptaszynska and Augusta Read Thomas at the University of Chicago and Anthony Kelley and Stephen Jaffe at Duke University.
 
-<div class="row">
-  <div class="col-12 col-sm-6 col-md-4 mb-3">
+## Tests that will beome something larger and if not, a suite 
+I've been kicking around an idea for a while. Take klezmer "shards" and assemble them to make waves of bits of sound. Larger shapes and flows assembled from recognizable pieces. Ripping technology improving as it has, I have some initial attempts. First, single instrument samples assembled manually.
+
+<div class="row justify-content-center">
+  <div class="col-12 col-md-6 mb-3">
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mpQBPjDxIuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="small mt-1"><!-- description --></p>
   </div>
-  <div class="col-12 col-sm-6 col-md-4 mb-3">
+  <div class="col-12 col-md-6 mb-3">
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JkbZiQ_RkyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="small mt-1"><!-- description --></p>
   </div>
-  <div class="col-12 col-sm-6 col-md-4 mb-3">
+  <div class="col-12 col-md-6 mb-3">
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xmubwqhGA1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
@@ -30,25 +34,22 @@ I've been kicking around an idea for a while. Take klezmer "shards" and assemble
   </div>
 </div>
 
-Second, a "quilt generator" that selects, sorts, and assembles segments that I then manually assembled.
+Second, a semi-vibe-coded "quilt generator" that selects, sorts, and assembles segments that I then manually assembled.
 
-<div class="row">
-  <div class="col-12 col-sm-6 col-md-4 mb-3">
+<div class="row justify-content-center">
+  <div class="col-12 col-md-6 mb-3">
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QrIqsRlt2pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="small mt-1"><!-- description --></p>
   </div>
-  <div class="col-12 col-sm-6 col-md-4 mb-3">
+  <div class="col-12 col-md-6 mb-3">
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/alPmpn4BBxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="small mt-1"><!-- description --></p>
   </div>
 </div>
-
-## Composer bio
-Matthew Slayton’s compositions reflect his fascination with biological and linguistic systems, where multiple lines and levels operate simultaneously. His work has been performed around the country, has been used in documentary films and video game scores, and was featured at the Sō Percussion Summer Institute in 2017. He graduated from the San Francisco Conservatory of Music where he studied with Elinor Armer, and previously studied with Marta Ptaszynska and Augusta Read Thomas at the University of Chicago and Anthony Kelley and Stephen Jaffe at Duke University.
 
 ## Covers/Arrangements
 Score video
