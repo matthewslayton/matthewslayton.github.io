@@ -55,11 +55,13 @@ Second, a semi-vibe-coded "quilt generator" that selects, sorts, and assembles s
 
 ## Covers/Arrangements
 Score video
+I started out wanting to make another funny cover like the Bruckner Adagio, but once I got started, I liked the more straightforward approach. Here's the whole thing done with standard synths in Logic Pro and I really like the result.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GYArZQjUWdM?si=zE5w-AvO_PEG83_2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Audio only
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2188249635&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
+Synth, genre-warping cover of a chunk of the Adagio from Bruckner 7. Test track for a game in development. It's a take on a runner where Bruckner is forced to dance (run and jump) to avoid bats and demons, all while being tortured with a chiptune cover of his music.
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2188253283&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 
