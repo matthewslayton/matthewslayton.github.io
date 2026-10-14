@@ -65,20 +65,24 @@ Audio only
 
 ## Concert music
 Large ensemble
+A re-do of a L'Histoire ensemble piece I wrote while at SFCM. The original never really worked, and I think this update does a better job. For now the graphic score has almost no dynamics or articulation. I may add those in a future version.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JBU4RUcpVuc?si=VEzOyTXl7nRtH0YH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Work for solo cello
+Set out to write the ultimate sad cello piece. Rather than just being evocative of sadness, my goal was to make it real and authentic. To do that, I needed to balance the inarticulate and even grotesque aspects of sadness with more conventional musical expression.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b3qr3prmqAY?si=jAztcJ2DVfa-eNmR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8WdEbEt87lI?si=vqDegmrV4zaZls5O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 French horn duo
+This piece explores the boundary between music and language by combining timbres and gestures in such a way that it establishes its own kind of meaning over time.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mQTjWi7qVNE?si=xlcVcxcbE1qiLBJX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Percussion quartet
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TTLzlJXjJP8?si=0GgBGnS8ZvSr5bYi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Piano and violin duo
+Tells a hypothetical story of the evolution of music, from it's gutteral, pre-linguistic past, with bursts of the mature, contemporary language we know.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HY51kNxId6k?si=oeRxYK34bHTN6-8T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Game music
