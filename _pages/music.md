@@ -33,17 +33,18 @@ Ripping technology improving as it has, I have some initial attempts. First, sin
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RyPPLaJ19zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="small mt-1"><!-- description --></p>
-      </div>
-  <div class="col-12 col-md-6 mb-3">
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KuglK-s0-Iw?si=cwZcWuOKySvAMMZd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-    <p class="small mt-1"><!-- description --></p>
   </div>
 </div>
 
 Second, a semi-vibe-coded "quilt generator" that selects, sorts, and assembles segments that I then manually arrange.
 
+<div class="row justify-content-center">
+  <div class="col-12 col-md-6 mb-3">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/KuglK-s0-Iw?si=cwZcWuOKySvAMMZd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <p class="small mt-1"><!-- description --></p>
+  </div>
 <div class="row justify-content-center">
   <div class="col-12 col-md-6 mb-3">
     <div class="embed-responsive embed-responsive-16by9">
