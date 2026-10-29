@@ -41,6 +41,18 @@ Second, a semi-vibe-coded "quilt generator" that selects, sorts, and assembles s
 <div class="row justify-content-center">
   <div class="col-12 col-md-6 mb-3">
     <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qDX-PbxrA5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <p class="small mt-1"><!-- description --></p>
+  </div>
+  <div class="col-12 col-md-6 mb-3">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/meho3y-gcnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <p class="small mt-1"><!-- description --></p>
+  </div>
+  <div class="col-12 col-md-6 mb-3">
+    <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3h-2brHWKFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <p class="small mt-1"><!-- description --></p>
